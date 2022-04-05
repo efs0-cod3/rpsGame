@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(238,234,255,1) 0%, rgba(104,100,255,1) 100%);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    margin: 10px auto 0 auto;
+    width: 80px;
+    padding: 5px 0;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.02);
+}
+button p{
+    text-align: center;
+}
+
+.red{
+    background: red;
+    
+}
+.green{
+    background: green;
+    
+}
+.yellow{
+    background: yellow;
+    
+}
+.disapear{
+    
+    visibility: hidden;
+}

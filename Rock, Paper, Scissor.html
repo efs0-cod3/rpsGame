@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RPS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>SCORE</h1>
+    <div class="container">
+        <div class="human">
+            <p class="hu-digit" id="h-digit">0</p>
+            <p class="foot">HUMAN</p>
+        </div>
+        <div class="middle-info" id="mid-info">
+            <p class="mid-p"></p>
+            <p id="middle-p"></p>
+        </div>
+        <div class="computer">
+            <p class="pc-digit" id="pc-digit">0</p>
+            <p class="foot">COMPUTER</p>
+        </div>
+    </div>
+    <div class="buttons p-selection">
+        <div id="btns" class="btns">
+            <button id="rock" class="rock p-play" value="rock"><p>Rock</p> </button>
+            <button id="paper" class="paper p-play" value="paper"><p>Paper</p></button>
+            <button id="scissor" class="scissor p-play" value="scissor"><p>Scissor</p></button>
+        </div>
+        <button id="reset" value="reset">RESET</button>
+
+    </div>
+    <script type="text/javascript" src="scoreKeeper.js"></script>
+</body>
+
+</html>
